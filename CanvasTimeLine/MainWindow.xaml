@@ -1,0 +1,28 @@
+﻿<Window x:Class="CanvasTimeLine.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CanvasTimeLine"
+        xmlns:ctrl="clr-namespace:CanvasTimeLine.Controls"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="300" Width="525">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Border Grid.Row="1" Background="#FF4B4B4B">
+            <ctrl:UCSeek Duration="{Binding ElementName=slider1,Path=Value}" InPoint="{Binding ElementName=slider2,Path=Value}" OutPoint="{Binding ElementName=slider3, Path=Value}"/>
+        </Border>
+
+        <Grid Grid.Row="2">
+            <StackPanel Orientation="Vertical">
+                <Slider x:Name="slider1" Maximum="1000"/>
+                <Slider x:Name="slider2" Maximum="1000"/>
+                <Slider x:Name="slider3" Maximum="1000"/>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Window>

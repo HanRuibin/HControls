@@ -1,0 +1,21 @@
+﻿<UserControl x:Class="CanvasTimeLine.Controls.UCSeek"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:CanvasTimeLine.Controls"
+             xmlns:ctrl="clr-namespace:xView.Controls.Controls;assembly=xView.Controls"
+             mc:Ignorable="d" 
+             d:DesignHeight="100" d:DesignWidth="300">
+    <UserControl.Resources>
+        <LinearGradientBrush x:Key="back" EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+            <GradientStop Color="#FF606060" Offset="0"/>
+            <GradientStop Color="#FF4F4F4F" Offset="1"/>
+            <GradientStop Color="#FF424242" Offset="0.43"/>
+        </LinearGradientBrush>
+    </UserControl.Resources>
+    <Grid  Margin="5" Background="{StaticResource back}">
+        <ctrl:CanvasTimeLine x:Name="timeLine" Margin="15 0 15 0" VerticalAlignment="Top" Position="{Binding ElementName=slider,Path=Value}" Max="{Binding ElementName=slider,Path=Maximum}" InPoint="59" OutPoint="88"/>
+        <Slider x:Name="slider" Margin="0 20 0 0" Height="30" VerticalAlignment="Top" Style="{DynamicResource UCSeekStyle}" Mouse.MouseMove="Slider_MouseMove" Maximum="333" Value="49"/>
+    </Grid>
+</UserControl>

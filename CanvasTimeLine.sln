@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CanvasTimeLine", "CanvasTimeLine\CanvasTimeLine.csproj", "{DFAAE8BC-F117-4686-B327-ADE6A8F18C82}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xView.Controls", "xView.Controls\xView.Controls.csproj", "{6823B853-E173-4912-884D-859042DD44B3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DFAAE8BC-F117-4686-B327-ADE6A8F18C82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFAAE8BC-F117-4686-B327-ADE6A8F18C82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFAAE8BC-F117-4686-B327-ADE6A8F18C82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFAAE8BC-F117-4686-B327-ADE6A8F18C82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6823B853-E173-4912-884D-859042DD44B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6823B853-E173-4912-884D-859042DD44B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6823B853-E173-4912-884D-859042DD44B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6823B853-E173-4912-884D-859042DD44B3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

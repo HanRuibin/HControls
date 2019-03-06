@@ -1,0 +1,17 @@
+D:\0.1\han\demo\CanvasTimeLine\xView.Controls\obj\Debug\xView.Controls_MarkupCompile.cache
+D:\0.1\han\demo\CanvasTimeLine\xView.Controls\obj\Debug\xView.Controls_MarkupCompile.lref
+D:\0.1\han\demo\CanvasTimeLine\xView.Controls\obj\Debug\xView.Controls.dll
+D:\0.1\han\demo\CanvasTimeLine\xView.Controls\obj\Debug\xView.Controls.pdb
+D:\0.1\han\demo\CanvasTimeLine\xView.Controls\bin\Debug\xView.Controls.dll
+D:\0.1\han\demo\CanvasTimeLine\xView.Controls\bin\Debug\xView.Controls.pdb
+D:\0.1\han\demo\CanvasTimeLine\xView.Controls\obj\Debug\Themes\Generic.baml
+D:\0.1\han\demo\CanvasTimeLine\xView.Controls\obj\Debug\xView.Controls.g.resources
+D:\0.1\han\demo\CanvasTimeLine\xView.Controls\obj\Debug\xView.Controls.Properties.Resources.resources
+D:\0.1\han\demo\CanvasTimeLine\xView.Controls\obj\Debug\xView.Controls.csproj.GenerateResource.Cache
+D:\0.1\han\demo\CanvasTimeLine\xView.Controls\obj\Debug\Themes\CanvasStyle.baml
+D:\0.1\han\demo\CanvasTimeLine\xView.Controls\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\0.1\han\demo\CanvasTimeLine\xView.Controls\obj\Debug\Themes\TimeLineBrushes.baml
+D:\0.1\han\demo\CanvasTimeLine\xView.Controls\obj\Debug\Controls\UCSeek.g.cs
+D:\0.1\han\demo\CanvasTimeLine\xView.Controls\obj\Debug\Controls\UCSeek.baml
+D:\0.1\han\demo\CanvasTimeLine\xView.Controls\obj\Debug\Styles\UCSeekStyle.baml
+D:\0.1\han\demo\CanvasTimeLine\xView.Controls\obj\Debug\xView.Controls.csprojResolveAssemblyReference.cache
